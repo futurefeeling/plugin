@@ -167,3 +167,6 @@ the plugin i create
     };
 })(jQuery);
 ```
+
+## jquery.checkboxSelect.js
+#### 该插件实现全部选择和取消全部选择的功能
