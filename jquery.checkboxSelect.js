@@ -26,6 +26,14 @@
                     });
                 }
             });
+            
+            $('.select').on('change', function(event) {
+                event.preventDefault();
+                var $allSelectedItems = $this.find('.select:checked');
+                if ($allSelectedItems.length === $allSelectItems.length) {
+                    $('.all-select').prop("checked", true);
+                }
+            });
         });
     };
 })(jQuery);
